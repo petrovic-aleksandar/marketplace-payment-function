@@ -6,7 +6,7 @@ An Azure Functions application that processes payments for the marketplace, inte
 
 This serverless payment processing function is built with:
 - **Azure Functions** for serverless computing
-- **Java 21** runtime
+- **Java 25** runtime
 - **PostgreSQL** database (shared with marketplace-spring-ca)
 - **JDBC** for lightweight database access
 - **HikariCP** for connection pooling
@@ -21,7 +21,7 @@ This serverless payment processing function is built with:
 
 ## Prerequisites
 
-- Java 21+
+- Java 25+
 - Maven 3.8+
 - PostgreSQL 12+ (running locally or remote)
 - Azure Functions Core Tools (for local development)
